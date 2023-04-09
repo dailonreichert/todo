@@ -9,16 +9,15 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         marginBottom: 8
     },
-    description : {
-        flex: 1,
-        fontSize: 16,
-        marginLeft: 16,
-        color: '#F2F2F2'
-    },
     button: {
         width: 56,
         height: 56,
         alignItems: 'center',
         justifyContent: 'center'
+    },
+    checkbox : {
+        flex: 1,
+        fontSize: 16,
+        marginLeft: 15
     }
 });

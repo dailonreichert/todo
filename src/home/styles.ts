@@ -56,8 +56,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         borderTopWidth: 0.5,
-        borderTopColor: '#808080',
-        //backgroundColor: '#f2f'
+        borderTopColor: '#808080'
     },
     imageEmptyList : {
         marginTop: 48
@@ -67,12 +66,24 @@ export const styles = StyleSheet.create({
         marginBottom : 20,
         flexDirection: 'row'
     },
-    counterText : {
+    countCreatedText : {
         color: '#4EA8DE',
         fontWeight: 'bold',
         fontSize: 16
     },
-    counterNumber : {
+    countCreatedNumber : {
+        flex: 1,
+        fontSize: 16,
+        marginLeft: 5,
+        color: '#F2F2F2',
+        fontWeight: 'bold'
+    },
+    countCompletedText : {
+        color: '#8284FA',
+        fontWeight: 'bold',
+        fontSize: 16
+    },
+    countCompletedNumber : {
         fontSize: 16,
         marginLeft: 5,
         color: '#F2F2F2',
